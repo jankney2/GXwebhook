@@ -14,7 +14,7 @@ app.listen(port, ()=>{
 
 app.post('/appts', (req, res)=>{
     console.log(req.body, 'hit')
-    res.sendStatus(200)
+    res.status(200).send('hello jacob. figure me out')
 })
 
 
